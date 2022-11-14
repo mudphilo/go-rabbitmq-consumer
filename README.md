@@ -10,3 +10,8 @@ RABBITMQ_PORT=5672
 RABBITMQ_VHOST=test
 JOB_QUEUES=FILES_QUEUE,SMS_QUEUE
 ```
+
+#### to run the code with environment variables set simple do
+```sh
+RABBITMQ_HOST=127.0.0.1 RABBITMQ_USER=guest RABBITMQ_PASSWORD=guest RABBITMQ_PORT=5672 RABBITMQ_VHOST=test JOB_QUEUES="FILES_QUEUE,SMS_QUEUE" go run main.go
+```
