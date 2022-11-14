@@ -1,0 +1,1 @@
+{"msisdn":"254726000000","sender_id":"OTP","message":"sample message"}
